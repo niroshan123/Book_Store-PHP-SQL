@@ -37,7 +37,9 @@ require_once("../curd/php/component.php")
 </div>
 
 </div>
-
+                <div class="d-flex">
+                <?php buttonElement("btn-create","btn btn-success","<i class='fas fa-plus'></i>","create","");?>
+                </div>
 </form>
 </div>
 </div>
