@@ -37,11 +37,50 @@ require_once("../curd/php/component.php")
 </div>
 
 </div>
-                <div class="d-flex">
-                <?php buttonElement("btn-create","btn btn-success","<i class='fas fa-plus'></i>","create","");?>
+<div class="d-flex-my">
+                <div class="d-flex1">
+                <?php buttonElement("btn-create","btn btn-success","<i class='fas fa-plus'></i>","create","data-toggle='tooltip' data-placement='bottom' title='Create'");?>
                 </div>
+                <div class="d-flex2">
+                <?php buttonElement("btn-read","btn btn-primary","<i class='fas fa-sync'></i>","read","data-toggle='tooltip' data-placement='bottom' title='Read'");?>
+                </div>
+                <div class="d-flex3">
+
+                <?php buttonElement("btn-update","btn btn-light border","<i class='fas fa-pen-alt'></i>","update","data-toggle='tooltip' data-placement='bottom' title='Update'");?>
+                </div>
+
+                <div class="d-flex4">
+
+                <?php buttonElement("btn-delete","btn btn-danger","<i class='fas fa-trash-alt'></i>","create","data-toggle='tooltip' data-placement='bottom' title='Delete'");?>
+                </div>
+
+
+                </div>
+
 </form>
 </div>
+<!--Bootstrap table-->
+            <div class="d-flex table-data">
+
+
+             <table class="table table-striped table-dark">
+
+             
+                <thead class="thead-dark">
+                  <tr>
+                   <th>ID</th>
+                   <th>Book Name</th>
+                   <th>Publisher</th>
+                   <th>Price</th>
+                   <th>Edit</th>
+                  </tr>
+                </thead>
+             </table>       
+
+
+            </div>
+
+
 </div>
 </main>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
