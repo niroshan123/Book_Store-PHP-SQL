@@ -1,6 +1,11 @@
 <?php
 
-require_once("../curd/php/component.php")
+require_once("../curd/php/component.php");
+require_once("../curd/php/operation.php");
+
+// require_once("../curd/php/db.php");
+
+// Createdb();
 ?>
 
 <!DOCTYPE html>
@@ -81,7 +86,7 @@ require_once("../curd/php/component.php")
                         <td>Book name</td>   
                         <td>Daily Tution</td>   
                         <td>44.99</td>
-                        <td><i class="fas fa-edit btnedit"></i></td>   
+                        <td><i class="fas fa-edit btnedit" style="color:lightsalmon; cursor: pointer"  ></i></td>   
    
    
                     </tr>    
